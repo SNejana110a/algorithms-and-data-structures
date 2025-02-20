@@ -51,7 +51,7 @@ namespace lesson22
                 attempt = Console.ReadKey();
                 Console.WriteLine();
             } while (attempt.Key == ConsoleKey.Y);
-            Console.WriteLine($"Max = {max}.\nMin = {min}.\nAvg = {tries / gameCount}.");
+            Console.WriteLine($"Max = {max}.\nMin = {min}.\nAvg = {Convert.ToDouble (tries)/gameCount}.");
         }
     }
 }
